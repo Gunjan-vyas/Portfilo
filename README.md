@@ -1,12 +1,12 @@
 # Portfilo
 
-included:
-  GSAP and locomotive js ( help of these got smooth scroll and awesome animation)
-  cuberto effect
+<h3>Included:</h3><br>
+  GSAP and locomotive js ( help of these got smooth scroll and awesome animation)<br>
+  Cuberto effect
 
 
 
-continue to work on it adding more project.
-  change typography
-  change hovers image array 
-  handle nav clicks 
+continue to work on it adding more project.<br>
+  change typography<br>
+  change hovers image array <br>
+  handle nav clicks <br>
