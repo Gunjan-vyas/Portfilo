@@ -108,6 +108,10 @@ function locoInitialize() {
     smooth: true,
     multiplier: 1,
   });
+  //below is the solution to fix height issues happening randomly when we use locomotive scroll 
+  setTimeout(() => {
+    scroll.update();
+}, 500); // 500 is 0.5s of wait for scroll to update after calling it, you can change it to make sure that it run after new DOM has loaded otherwise scroll.update() will run but before new DOM has loaded and will have no effect on new DOM / content
 }
 function cardHoverEffect() {
   document.querySelectorAll(".cnt").forEach(function (cnt) {
